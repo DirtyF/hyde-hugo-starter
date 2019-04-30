@@ -14,4 +14,5 @@ fields:
   hidden: true
   default: post
 pages:
+- content/posts/introducing-hyde.md
 - content/posts/example-content.md
