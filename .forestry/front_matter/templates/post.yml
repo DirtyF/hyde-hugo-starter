@@ -13,3 +13,5 @@ fields:
   label: layout
   hidden: true
   default: post
+pages:
+- content/posts/example-content.md
