@@ -9,6 +9,11 @@ sections:
   label: Posts
   create: all
   match: "**/*"
+- type: directory
+  path: content
+  label: Pages
+  create: all
+  match: "*.md"
 - type: heading
   label: Documentation
 - type: document
