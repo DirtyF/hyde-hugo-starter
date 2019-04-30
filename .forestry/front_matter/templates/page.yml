@@ -13,3 +13,5 @@ fields:
   label: layout
   default: page
   hidden: true
+pages:
+- content/about.md
