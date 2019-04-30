@@ -4,13 +4,18 @@ auto_deploy: false
 admin_path: 
 webhook_url: 
 sections:
-- type: heading
-  label: Hyde hyde hyde
 - type: directory
   path: content
   label: Content
   create: all
   match: "**/*"
+- type: heading
+  label: Documentation
+- type: document
+  path: FIRSTSTEPS.md
+  label: First Steps
+  match: "**/*"
+  read_only: true
 upload_dir: static/uploads
 public_path: "/uploads"
 front_matter_path: ''
