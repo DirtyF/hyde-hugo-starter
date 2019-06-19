@@ -15,6 +15,15 @@ fields:
   label: layout
   hidden: true
   default: post
+- name: date-time
+  type: datetime
+  label: date-time
+  config:
+    required: false
+    date_format: YYYY-MM-DD
+    time_format: 
+    display_utc: false
+    export_format: YYYY-MM-DD
 pages:
 - content/posts/introducing-hyde.md
 - content/posts/whats-hugo.md
