@@ -16,6 +16,6 @@ fields:
   hidden: true
   default: post
 pages:
-- content/posts/whats-hugo.md
 - content/posts/introducing-hyde.md
+- content/posts/whats-hugo.md
 - content/posts/example-content.md
