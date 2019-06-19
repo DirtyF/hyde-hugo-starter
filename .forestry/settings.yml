@@ -9,6 +9,9 @@ sections:
   label: Posts
   create: all
   match: "**/*"
+  templates:
+  - date-stuff
+  - post
 - type: directory
   path: content
   label: Pages
