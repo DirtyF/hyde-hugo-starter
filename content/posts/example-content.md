@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Example content
-date: 2012-02-07T00:00:00.000+00:00
+date: 2019-06-14
 
 ---
 <div class="message">
