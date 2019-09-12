@@ -12,7 +12,7 @@ To give you a running start this installation puts a fully configured [starter r
 
 _Forestry Starter-Kit:_
 
-[![Import this project into Forestry](https://assets.forestry.io/import-to-forestry.svg)](https://app.forestry.io/quick-start?repo=forestryio/hyde-hugo-starter&provider=github&engine=hugo&version=0.42)
+[![Import this project into Forestry](https://assets.forestry.io/import-to-forestryK.svg)](https://app.forestry.io/quick-start?repo=forestryio/hyde-hugo-starter&provider=github&engine=hugo&version=0.42)
 
 You've now successfully installed your Hyde Theme in a Hugo project.
 
@@ -28,10 +28,10 @@ The easiest option in our opinion is Netlify. It's quick to setup and relatively
 2. Connect your Git provider and provide Netlify access to your repository (e.g. username/hyde)
 3. Select and Click on your repository
 4. Enter your build settings.
-   * Build Command: `hugo`
+   * Build Command: `hugo --gc --minify`
    * Publish Directory: `public`
 5. Add advanced build settings as a new variable.
-   * Key: `HUGO_VERSION` Value: `0.42`
+   * Key: `HUGO_VERSION` Value: `0.58.1`
 6. Click on `Deploy Site`
 
 ![](https://forestry.io/img/theme/netlify-step-4.gif)
