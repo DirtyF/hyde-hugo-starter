@@ -1,9 +1,9 @@
 +++
-layout= 'post'
-title= 'Example content'
-date= '2019-06-14'
-date-time= '2019-09-26'
-num= ''
+date = "2019-06-14"
+date-time = "2019-09-27"
+layout = "post"
+num = nil
+title = "Example content"
 
 +++
 <div class="message">
