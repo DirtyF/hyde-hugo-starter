@@ -24,7 +24,17 @@ fields:
     time_format: 
     display_utc: true
     export_format: YYYY-MM-DD
+- name: num
+  type: number
+  label: num
+  description: ''
+  default: 0
+  required: true
+  config:
+    min: 
+    max: 
+    step: 
 pages:
+- content/posts/example-content.md
 - content/posts/introducing-hyde.md
 - content/posts/whats-hugo.md
-- content/posts/example-content.md
