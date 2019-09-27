@@ -19,7 +19,6 @@ fields:
   type: datetime
   label: date-time
   config:
-    required: false
     date_format: YYYY-MM-DD
     time_format: 
     display_utc: true
@@ -29,11 +28,6 @@ fields:
   label: num
   description: ''
   default: 0
-  required: true
-  config:
-    min: 
-    max: 
-    step: 
 pages:
 - content/posts/example-content.md
 - content/posts/introducing-hyde.md
