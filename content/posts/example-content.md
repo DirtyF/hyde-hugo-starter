@@ -1,11 +1,11 @@
----
-layout: post
-title: Example content
-date: 2019-06-14
-date-time: 2019-09-26
-num: 
++++
+layout= 'post'
+title= 'Example content'
+date= '2019-06-14'
+date-time= '2019-09-26'
+num= ''
 
----
++++
 <div class="message">
   Howdy! This is an example blog post that shows several types of HTML content supported in this theme.
 </div>
