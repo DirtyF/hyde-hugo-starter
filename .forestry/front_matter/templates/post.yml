@@ -29,6 +29,6 @@ fields:
   description: ''
   default: 0
 pages:
-- content/posts/example-content.md
-- content/posts/introducing-hyde.md
 - content/posts/whats-hugo.md
+- content/posts/introducing-hyde.md
+- content/posts/example-content.md
